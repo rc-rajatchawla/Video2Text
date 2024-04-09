@@ -90,7 +90,7 @@ def chat_interface(chat_id, message) -> str:
     
     html(recipe_json=response_obj, image_urls=images, output_file_path=f"recipes/{chat_id}.html")
     
-    return f"/Users/rajat/superAGI/Video2Chat/recipes/{chat_id}.html"
+    return f"/Users/rajat/superAGI/Video2Text/recipes/{chat_id}.html"
 
 def format_recipe_for_prompt(query):
     recipes = get_cooking_recipes(query)
